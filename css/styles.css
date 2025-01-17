@@ -33,9 +33,6 @@
     display: block;
   }
   
-header{
-    box-shadow: 0px 2px 1 rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66,1.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
 
   .container {
     display: flex;
@@ -50,10 +47,22 @@ header{
 
   .list-menu {
     display: flex;
+    color: var(--ocean);
+
     gap: 40px;
     list-style: none;
   }
-  
+  .menu::after link{
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom:-1px;
+    height: 4px;
+    background-color: var(--ocean);
+    border-radius: 2px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
   .navigation-menu {
     display: flex;
     align-items: center;
@@ -69,6 +78,7 @@ header{
   
   .header {
     border: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   }
   
   
@@ -88,8 +98,11 @@ header{
   .com-menu {
     display: flex;
     margin-left: auto;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
+
+
   .com-list {
     display: flex;
     gap: 40px;
