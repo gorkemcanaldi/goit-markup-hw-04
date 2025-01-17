@@ -127,8 +127,9 @@
   .hero-image {
     
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-p.jpg);
-    background-position: center;
     background-size: cover;
+    background-position: center;
+    
     background-repeat: no-repeat;
     max-width: 1440px;
     max-height: 600px;
