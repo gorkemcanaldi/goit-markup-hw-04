@@ -194,7 +194,6 @@
   /* Features */
   .features {
     max-width: 1128px;
-    max-height: 224px;
     margin: 120px auto;
   }
   
@@ -203,14 +202,14 @@
 .contain-icon {
   
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 264px;
   height: 112px;
-  margin-bottom: 8px;
+  background-color: var(--cloud);
   border-radius: 4px;
   border: 1px solid #8e8f99;
-  background-color: var(--cloud);
+  margin-bottom: 8px;
   
 }
 
@@ -221,6 +220,7 @@
 
   .features-list {
     display: flex;
+    justify-content: center;
     gap: 24px;
     margin: 120px 0;
     list-style: none;
@@ -228,9 +228,7 @@
   }
   
   .feature-li {
-    flex-basis: calc((100% - 3 * 16px) / 4);
-    
-
+    flex-basis: calc((100% - 3 * 25px) / 4);
     list-style: none;
   }
   
