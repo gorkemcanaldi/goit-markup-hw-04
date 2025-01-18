@@ -194,15 +194,11 @@
   /* Features */
   .features {
     max-width: 1128px;
+    max-height: 224px;
     margin: 120px auto;
   }
   
-.div-list {
 
-  max-width: 264px;
-  max-height: 224px;
-  
-}
 
 .svg-box {
   
@@ -218,27 +214,22 @@
   
 }
 
-  .features-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-    
-   
-    
+  .feature-title {
+    margin:8px auto;
   }
-  
 
 
   .features-list {
     display: flex;
     gap: 24px;
     margin: 120px 0;
+    list-style: none;
+
   }
   
   .feature-item {
     flex-basis: calc((100% - 3 * 16px) / 4);
-   
+    
 
     list-style: none;
   }
