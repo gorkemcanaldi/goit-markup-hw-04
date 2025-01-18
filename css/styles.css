@@ -227,7 +227,7 @@
 
   }
   
-  .feature-item {
+  .feature-li {
     flex-basis: calc((100% - 3 * 16px) / 4);
     
 
