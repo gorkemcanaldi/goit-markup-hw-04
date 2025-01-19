@@ -427,7 +427,6 @@ header {
 .footer-sec {
   position: relative;
   background-color: var(--navyblue);
-  height: 312px;
   padding: 100px 0;
 }
 
@@ -437,16 +436,17 @@ header {
 }
 
 .footer-info {
- 
   margin-right: 120px;
   margin-left: 156px;
-  
 }
 .footer-box {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  position: absolute;
   margin-top: -100px;
+  transform: translate(548px);
+  width: 208px;
 }
 
 .footer-logo {
@@ -473,6 +473,7 @@ header {
 
 .footer-text {
   color: var(--cloud);
+  width: 264px;
 }
 
 .social-foot {
@@ -482,7 +483,6 @@ header {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-  
 }
 
 .footer-list {
