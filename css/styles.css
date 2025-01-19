@@ -471,8 +471,10 @@ header {
   color: var(--iris);
   text-transform: uppercase;
   margin-bottom: 16px;
+ 
 }
 .logo-span-second {
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   line-height: 1.17;
@@ -482,6 +484,7 @@ header {
   color: var(--cloud);
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 76px;
 }
 
 
