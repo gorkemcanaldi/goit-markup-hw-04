@@ -430,18 +430,123 @@ header {
 /* footer */
 
 .footer-sec {
-  padding: 100px 0;
+  position: relative;
   background-color: var(--navyblue);
-  min-height: 112px;
+  height: 312px;
+  padding: 100px 0;
+
+}
+
+.container-foot {
+  display: flex;
+  align-items: baseline;
+  
 }
 
 .footer-info {
-  display: flex;
+  margin-right: 120px;
+  margin-left: 156px;
   width: 264px;
-  margin-left: 21%;
+  height: 112px;
+  
+}
+.footer-box {
+  display: flex;
+  justify-content: center;
+  
+  position: absolute;
+  bottom: 132px;
+  left: 540px;
+
+
+  
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--iris);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.logo-span-second {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 1.17;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 
+
+/* Social Foot (Ana Konteyner) */
+.social-foot {
+  position: absolute;
+  margin-top: 100px;
+  margin-bottom: 16px;
+  left: 540px;
+  bottom: 176px;
+  display: flex;
+  flex-direction: column; /* Elemanları dikey sıraya dizer */
+  align-items: center; /* Ortalar */
+  
+}
+
+/* P Etiketi (Sosyal Medya Başlığı) */
+.social-foot {
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 16px; /* Liste ile arasına boşluk bırakır */
+  text-align: center;
+}
+
 .footer-text {
   color: var(--cloud);
+}
+
+/* Liste (İkonlar) */
+.footer-list {
+  display: flex;
+  justify-content: center; /* İkonları yatay ortalar */
+  gap: 16px; /* İkonlar arasındaki mesafe */
+  list-style: none; /* Varsayılan liste stilini kaldırır */
+  padding: 0; /* Varsayılan padding'i sıfırlar */
+  margin: 0; /* Varsayılan margin'i sıfırlar */
+}
+
+/* Liste Elemanları (İkonlar) */
+.social-li-fo {
+  width: 40px;
+  height: 40px;
+}
+
+/* Linkler (İkonların arka planı) */
+.footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Link genişliği */
+  height: 100%; /* Link yüksekliği */
+  background-color: var(--iris); /* Arka plan rengi */
+  border-radius: 50%; /* Yuvarlak şekil */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Hover animasyonu */
+}
+
+.footer-link:hover {
+  background-color: #31d0aa; /* Hover efekti */
+}
+
+/* SVG İkonların Rengi */
+.icon-facebook,
+.icon-twitter,
+.icon-instagram,
+.icon-linkedin {
+  fill: var(--cloud); /* SVG'lerin rengi */
 }
