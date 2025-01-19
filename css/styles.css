@@ -433,10 +433,11 @@ header {
 .container-foot {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
 }
 
 .footer-info {
-  margin-right: 120px;
+  
   margin-left: 156px;
 }
 .footer-box {
