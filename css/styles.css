@@ -343,7 +343,7 @@ header {
   background-color: var(--ocean);
 }
 
-.icon, .icon-instagram, .icon-twetter, .icon-facebook, .icon-linkedin {
+svg .icon-instagram, .icon-twetter, .icon-facebook, .icon-linkedin {
   fill: var(--cloud);
 }
 
