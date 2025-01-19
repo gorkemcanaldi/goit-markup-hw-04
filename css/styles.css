@@ -341,7 +341,8 @@ header {
 .icon-instagram,
 .icon-twetter,
 .icon-facebook,
-.icon-linkedin {
+.icon-linkedin, 
+.icons {
   fill: var(--cloud);
 }
 
@@ -520,6 +521,7 @@ header {
 .icon-instagram,
 .icon-twetter,
 .icon-facebook,
-.icon-linkedin {
+.icon-linkedin, 
+.icons {
   fill: var(--cloud);
 }
