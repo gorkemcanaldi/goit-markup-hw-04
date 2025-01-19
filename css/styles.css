@@ -341,7 +341,7 @@ header {
   background-color: var(--ocean);
 }
 
-svg {
+.icon {
   fill: var(--cloud);
 }
 
