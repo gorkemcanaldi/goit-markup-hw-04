@@ -522,6 +522,6 @@ header {
 .icon-twetter,
 .icon-facebook,
 .icon-linkedin, 
-.icons {
+.social-li {
   fill: var(--cloud);
 }
