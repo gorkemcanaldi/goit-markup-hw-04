@@ -443,9 +443,9 @@ header {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  position: absolute;
   margin-top: -100px;
-  transform: translate(548px);
+  margin-left: 540px;
+  position: relative;
   width: 208px;
 }
 
@@ -457,6 +457,7 @@ header {
   letter-spacing: 0.03em;
   color: var(--iris);
   text-transform: uppercase;
+  display: inline-block;
   margin-bottom: 16px;
 }
 .logo-span-second {
@@ -467,7 +468,7 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--cloud);
-  display: inline-block;
+
   margin-bottom: 16px;
 }
 
@@ -516,6 +517,9 @@ header {
   background-color: #31d0aa;
 }
 
-.icon-instagram .icon-twetter .icon-facebook .icon-linkedin {
+.icon-instagram,
+.icon-twetter,
+.icon-facebook,
+.icon-linkedin {
   fill: var(--cloud);
 }
