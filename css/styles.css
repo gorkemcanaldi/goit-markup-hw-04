@@ -444,18 +444,23 @@ header {
 }
 
 .footer-info {
+  display: flex;
+  flex-direction: column;
   margin-right: 120px;
   margin-left: 156px;
   width: 264px;
   height: 112px;
-  position: relative;
+ 
+
   
 }
 .footer-box {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  position: relative;
+  margin-top: -100px;
+ 
+  
 }
 
 .footer-logo {
@@ -467,6 +472,7 @@ header {
   color: var(--iris);
   text-transform: uppercase;
   margin-bottom: 16px;
+
 }
 .logo-span-second {
   font-family: "Raleway", sans-serif;
