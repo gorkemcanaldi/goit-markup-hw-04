@@ -338,11 +338,7 @@ header {
   background-color: var(--ocean);
 }
 
-.icon-instagram,
-.icon-twetter,
-.icon-facebook,
-.icon-linkedin, 
-.icons {
+.social-icon {
   fill: var(--cloud);
 }
 
@@ -518,6 +514,6 @@ header {
   background-color: #31d0aa;
 }
 
-.social-icon {
+.footer-icon {
   fill: var(--cloud);
 }
