@@ -434,6 +434,7 @@ header {
 
 .footer-info {
   margin-right: 120px;
+  margin-left: 156px;
  
 }
 .footer-box {
@@ -441,7 +442,7 @@ header {
   justify-content: center;
   flex-direction: column;
   margin-top: -100px;
-  margin-left: 540px;
+  
   position: relative;
   width: 208px;
 }
