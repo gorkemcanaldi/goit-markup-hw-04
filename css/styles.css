@@ -518,10 +518,6 @@ header {
   background-color: #31d0aa;
 }
 
-.icon-instagram,
-.icon-twetter,
-.icon-facebook,
-.icon-linkedin, 
-.social-li {
+.social-icon {
   fill: var(--cloud);
 }
